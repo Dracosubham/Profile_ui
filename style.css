@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: "poppins" , sans-serif;
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+
+}
+
+.profile-card{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    max-width:370px;
+    width:100%;
+    background: #ffff;
+    border-radius: 24px;
+    padding:25px;
+    box-shadow: 0px 5px 10px rgba(0, 0,0 , 0.1);
+    position:relative;
+   
+}
+
+.profile-card::before{
+    content:'';
+    position :absolute;
+    height:36%;
+    width:100%;
+    background-color: #4070f4;
+    top:0;
+    left:0;
+    border-radius: 24px 24px 0 0;
+    background-color: #4070f4;
+}
+.image{
+  position :relative;
+  height: 150px;
+  width:150px;
+  border-radius: 50%;
+  background-color: #4070f4;
+  padding: 3px;
+  margin:10px;
+}
+.profile-img{
+    height: 100%;
+    width :100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border:3px solid white;
+
+}
+.text{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.job{
+    font-size: 15px;
+    font-weight: 400;
+}
+.media-button{
+    display:flex;
+    align-items: center;
+    margin-top:15px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    height:34px;
+    width:34px;
+    border-radius: 50%;
+    margin :0px 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+}
+.link:hover{
+    scale:1.2;
+}
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    transition: all 2s ease;
+}
+
+.feed{
+    font-size:14px;
+    font-weight: 400;
+    color:#fff;
+    border:none;
+    border-radius: 24px;
+    margin:0px 10px;
+    padding:8px 24px;
+    background-color: #4070f4;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+.feed:hover{
+    scale:1.2;
+    background-color: #0e4bf1;
+}
+.some{
+    margin-top:25px;
+    display: flex;
+    align-items: center;
+}
+.some :hover{
+    scale:1.2;
+}
+i{
+    font-size:18px;
+}
+.data{
+    display: flex;
+    align-items: center;
+    color:#333;
+    padding :0px 20px;
+    border-right:2px solid #e7e7e7;
+}
+
+
